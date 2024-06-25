@@ -4,10 +4,19 @@
  */
 package com.aed.pathfinder.models;
 
+import java.io.File;
+
 /**
  *
  * @author JANLUVI
  */
 public class ReadCommand {
-    
+
+    public ReadCommand(File file) {
+    }
+
+    public void execute() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
 }
