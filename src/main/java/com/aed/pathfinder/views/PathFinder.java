@@ -103,11 +103,11 @@ public class PathFinder extends javax.swing.JFrame {
 
         btn_crear_carpeta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carpetas.png"))); // NOI18N
         btn_crear_carpeta.setToolTipText("Crear carpeta");
-        btn_crear_carpeta.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_crear_carpeta.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_crear_unidad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/unidad.png"))); // NOI18N
         btn_crear_unidad.setToolTipText("Crear disco");
-        btn_crear_unidad.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_crear_unidad.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_crear_unidad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_crear_unidadActionPerformed(evt);
@@ -116,35 +116,35 @@ public class PathFinder extends javax.swing.JFrame {
 
         btn_crear_archivo_de_texto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/archivo.png"))); // NOI18N
         btn_crear_archivo_de_texto.setToolTipText("Crear un archivo de texto");
-        btn_crear_archivo_de_texto.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_crear_archivo_de_texto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_renombrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/renombrar-archivo.png"))); // NOI18N
         btn_renombrar.setToolTipText("Cambiar de nombre");
-        btn_renombrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_renombrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_copiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/copiar.png"))); // NOI18N
         btn_copiar.setToolTipText("copiar");
-        btn_copiar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_copiar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_pegar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pegar.png"))); // NOI18N
         btn_pegar.setToolTipText("pegar");
-        btn_pegar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_pegar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_cortar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/cortar.png"))); // NOI18N
         btn_cortar.setToolTipText("cortar");
-        btn_cortar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_cortar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_eliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/eliminar.png"))); // NOI18N
         btn_eliminar.setToolTipText("eliminar");
-        btn_eliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_eliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_acceso_directo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/acceso-directo.png"))); // NOI18N
         btn_acceso_directo.setToolTipText("crear acceso directo");
-        btn_acceso_directo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_acceso_directo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         btn_acceso_directo1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/propiedades.png"))); // NOI18N
         btn_acceso_directo1.setToolTipText("Propiedades");
-        btn_acceso_directo1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_acceso_directo1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout barra_de_herramientasLayout = new javax.swing.GroupLayout(barra_de_herramientas);
         barra_de_herramientas.setLayout(barra_de_herramientasLayout);
@@ -198,37 +198,37 @@ public class PathFinder extends javax.swing.JFrame {
         btn_atras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/arrow_left.png"))); // NOI18N
         btn_atras.setBorderPainted(false);
         btn_atras.setContentAreaFilled(false);
-        btn_atras.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_atras.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_atras.setFocusPainted(false);
 
         btn_adelante.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/arrow_right.png"))); // NOI18N
         btn_adelante.setBorderPainted(false);
         btn_adelante.setContentAreaFilled(false);
-        btn_adelante.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_adelante.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_adelante.setFocusPainted(false);
 
         btn_inicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/home.png"))); // NOI18N
         btn_inicio.setBorderPainted(false);
         btn_inicio.setContentAreaFilled(false);
-        btn_inicio.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_inicio.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_inicio.setFocusPainted(false);
 
         btn_una_carpeta_hacia_arriba.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/arrow_up.png"))); // NOI18N
         btn_una_carpeta_hacia_arriba.setBorderPainted(false);
         btn_una_carpeta_hacia_arriba.setContentAreaFilled(false);
-        btn_una_carpeta_hacia_arriba.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_una_carpeta_hacia_arriba.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_una_carpeta_hacia_arriba.setFocusPainted(false);
 
         btn_recargar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/reload.png"))); // NOI18N
         btn_recargar.setBorderPainted(false);
         btn_recargar.setContentAreaFilled(false);
-        btn_recargar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_recargar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_recargar.setFocusPainted(false);
 
         btn_herramientas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/herramientas.png"))); // NOI18N
         btn_herramientas.setBorderPainted(false);
         btn_herramientas.setContentAreaFilled(false);
-        btn_herramientas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_herramientas.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_herramientas.setFocusPainted(false);
         btn_herramientas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -340,25 +340,25 @@ public class PathFinder extends javax.swing.JFrame {
 
         btn_menu_archivo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/carpeta.png"))); // NOI18N
         btn_menu_archivo.setText("Archivo");
-        btn_menu_archivo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_menu_archivo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_menu_archivo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
         btn_exportar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btn_exportar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/exportar.png"))); // NOI18N
         btn_exportar.setText("Exportar");
-        btn_exportar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_exportar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_menu_archivo.add(btn_exportar);
 
         btn_importar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btn_importar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/importar.png"))); // NOI18N
         btn_importar.setText("Importar");
-        btn_importar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_importar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_menu_archivo.add(btn_importar);
 
         btn_guardar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btn_guardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/guardar.png"))); // NOI18N
         btn_guardar.setText("Guardar");
-        btn_guardar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        btn_guardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btn_menu_archivo.add(btn_guardar);
 
         jMenuBar1.add(btn_menu_archivo);
