@@ -21,5 +21,22 @@ public class WriteCommand {
     public void execute() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+    public File getFile() {
+        return file;
+    }
+
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+    
     
 }
