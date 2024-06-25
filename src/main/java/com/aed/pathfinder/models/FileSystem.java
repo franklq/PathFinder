@@ -4,6 +4,8 @@
  */
 package com.aed.pathfinder.models;
 
+import java.io.File;
+
 /**
  *
  * @author JANLUVI
