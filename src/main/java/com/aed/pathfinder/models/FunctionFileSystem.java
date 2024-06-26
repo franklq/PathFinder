@@ -8,12 +8,9 @@ package com.aed.pathfinder.models;
  *
  * @author JANLUVI
  */
-interface Files {
-
-    public void Files();
-
-    public void read();
-
-    public void write(String data);
-
+ interface FunctionFileSystem {
+    public void exportFileOrDirectory(String filename, String path);
+    public void importSAVFile(String path);
+    public void saveSAVFile(String filename);
+    
 }

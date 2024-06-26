@@ -10,33 +10,33 @@ import java.io.File;
  *
  * @author JANLUVI
  */
-public class FileSystem {
+public class FileSystem implements FunctionFileSystem {
 
     public FileSystem() {
     }
-    
-     public FileSystem getInstance(){
+
+    public FileSystem getInstance() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-     
-      public void createSAVFile(){
-    throw new UnsupportedOperationException("Not supported yet.");
+
+    public void createSAVFile() {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
-      public void exportRecursively(FileComponent fileComponent, File destination){
-    throw new UnsupportedOperationException("Not supported yet.");
+
+    public void exportRecursively(FileComponent fileComponent, File destination) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
-      public void exportFileOrDirectory(String filename, String path){
-    throw new UnsupportedOperationException("Not supported yet.");
+
+    public void exportFileOrDirectory(String filename, String path) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
-      
-      public void importSAVFile(String path){
-    throw new UnsupportedOperationException("Not supported yet.");
+
+    public void importSAVFile(String path) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
-      
-      public void saveSAVFile(String path){
-    throw new UnsupportedOperationException("Not supported yet.");
+
+    public void saveSAVFile(String path) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
-      
-      
-    
+
 }
