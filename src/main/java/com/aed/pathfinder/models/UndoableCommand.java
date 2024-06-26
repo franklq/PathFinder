@@ -8,11 +8,11 @@ package com.aed.pathfinder.models;
  *
  * @author kterv
  */
-public class UndoableCommand {
+interface UndoableCommand {
 
-    public void undo() {
-    }
+    public void undo();
 
-    public void redo() {
-    }
+    public void redo();
 }
+
+
