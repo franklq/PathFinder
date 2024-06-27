@@ -11,7 +11,9 @@ import java.io.File;
  * @author JANLUVI
  */
 public class ReadCommand {
+
     private File file;
+
     public ReadCommand(File _file) {
         this.file = _file;
     }

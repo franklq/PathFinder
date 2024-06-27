@@ -26,7 +26,5 @@ public class CustomHeaderRenderer extends DefaultTableCellRenderer {
         setFont(getFont().deriveFont(Font.BOLD)); // Opcional: hacer el texto en negrita
         return this;
     }
-    
-    
-    
+
 }

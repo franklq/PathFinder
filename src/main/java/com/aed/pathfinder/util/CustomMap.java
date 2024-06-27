@@ -1,13 +1,15 @@
 package com.aed.pathfinder.util;
 
 import java.util.*;
+
 /**
  *
  * @author Juan Romero Collazos
  * @param <K>
  * @param <V>
  */
-public class CustomMap<K, V> implements Iterable<CustomMap<K,V>.MapEntry>{
+public class CustomMap<K, V> implements Iterable<CustomMap<K, V>.MapEntry> {
+
     private K[] keys;
     private V[] values;
     private int size;
@@ -114,18 +116,23 @@ public class CustomMap<K, V> implements Iterable<CustomMap<K,V>.MapEntry>{
     }
 
     public class MapEntry {
+
         private K key;
         private V value;
+
         public MapEntry(K key, V value) {
             this.key = key;
             this.value = value;
         }
+
         public K getKey() {
             return key;
         }
+
         public V getValue() {
             return value;
         }
+
         @Override
         public String toString() {
             return key + " => " + value;
@@ -133,6 +140,7 @@ public class CustomMap<K, V> implements Iterable<CustomMap<K,V>.MapEntry>{
     }
 
     private class MapIterator implements Iterator<MapEntry> {
+
         private int currentIndex = 0;
 
         @Override
@@ -142,7 +150,7 @@ public class CustomMap<K, V> implements Iterable<CustomMap<K,V>.MapEntry>{
 
         @Override
         public MapEntry next() {
-            if(!hasNext()) {
+            if (!hasNext()) {
                 throw new NoSuchElementException();
             }
             return new MapEntry(keys[currentIndex], values[currentIndex++]);

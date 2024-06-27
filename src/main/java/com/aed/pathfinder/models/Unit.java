@@ -9,18 +9,19 @@ package com.aed.pathfinder.models;
  * @author kterv
  */
 public class Unit {
+
     private String name;
     private DirectoryComposite rootDirectory;
 
     public Unit(String name) {
         this.name = name;
     }
-    
+
     public String getName() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-    
-     public DirectoryComposite getRootDirectory() {
+
+    public DirectoryComposite getRootDirectory() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
@@ -31,5 +32,5 @@ public class Unit {
     public void setRootDirectory(DirectoryComposite rootDirectory) {
         this.rootDirectory = rootDirectory;
     }
-     
+
 }

@@ -11,13 +11,13 @@ import java.io.File;
  * @author JANLUVI
  */
 public class WriteCommand {
-    
+
     private File file;
     private String data;
 
     public WriteCommand() {
     }
-    
+
     public void execute() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
@@ -37,6 +37,5 @@ public class WriteCommand {
     public void setData(String data) {
         this.data = data;
     }
-    
-    
+
 }

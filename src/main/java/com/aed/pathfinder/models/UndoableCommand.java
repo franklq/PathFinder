@@ -14,5 +14,3 @@ interface UndoableCommand {
 
     public void redo();
 }
-
-

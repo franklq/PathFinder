@@ -23,9 +23,11 @@ public class WriteTextCommand implements UndoableCommand {
     public void execute() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
     public void undo() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
     public void redo() {
         throw new UnsupportedOperationException("Not supported yet.");
     }

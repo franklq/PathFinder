@@ -8,12 +8,9 @@ package com.aed.pathfinder.models;
  *
  * @author JANLUVI
  */
-interface FunctionFileSystem {
-
-    public void exportFileOrDirectory(String filename, String path);
-
-    public void importSAVFile(String path);
-
-    public void saveSAVFile(String filename);
-
+public class ConsoleObserver extends Observer {
+    @Override
+    public void update(String message) {
+        System.out.println("ConsoleObserver: " + message);
+    }
 }
